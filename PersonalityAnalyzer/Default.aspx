@@ -31,6 +31,19 @@
             <div class="result">
                 <asp:Label ID="lblResult" runat="server"></asp:Label>
             </div>
+
+            <hr style="margin: 30px 0;" />
+            <p>What about this second image? What do you see first?</p>
+            
+            <asp:Image ID="imgIllusion2" runat="server" ImageUrl="~/Images/illusion2.jpg" AlternateText="Optical Illusion 2" />
+            <br />
+            
+            <asp:RadioButtonList ID="rblIllusion2" runat="server" RepeatDirection="Horizontal" style="margin: 0 auto; text-align: left;">
+                <asp:ListItem Value="Faces">Two Faces</asp:ListItem>
+                <asp:ListItem Value="Vase">A Vase</asp:ListItem>
+            </asp:RadioButtonList>
+            <br />
+
         </div>
     </form>
 </body>
